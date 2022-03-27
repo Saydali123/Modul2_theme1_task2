@@ -1,4 +1,4 @@
-package com.example.modul2_theme1_task2.controllers;
+package com.example.modul2_theme1_task2.controller;
 
 import com.example.modul2_theme1_task2.domains.Language;
 import com.example.modul2_theme1_task2.domains.Task;

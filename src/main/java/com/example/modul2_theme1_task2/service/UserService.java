@@ -1,7 +1,7 @@
 package com.example.modul2_theme1_task2.service;
 
 import com.example.modul2_theme1_task2.domains.AuthUser;
-import com.example.modul2_theme1_task2.repository.UserRepository;
+import com.example.modul2_theme1_task2.repositories.UserRepository;
 import com.example.modul2_theme1_task2.response.ApiResponse;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;
@@ -12,7 +12,7 @@ import java.util.List;
 public class UserService {
 
 
-    private UserRepository userRepository;
+    private final UserRepository userRepository;
 
     public UserService(UserRepository userRepository) {
         this.userRepository = userRepository;

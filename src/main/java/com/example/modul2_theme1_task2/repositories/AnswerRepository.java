@@ -1,4 +1,4 @@
-package com.example.modul2_theme1_task2.repository;
+package com.example.modul2_theme1_task2.repositories;
 
 import com.example.modul2_theme1_task2.domains.Answer;
 import org.springframework.data.jpa.repository.JpaRepository;

@@ -1,8 +1,7 @@
 package com.example.modul2_theme1_task2.service;
 
-import com.example.modul2_theme1_task2.domains.AuthUser;
 import com.example.modul2_theme1_task2.domains.Category;
-import com.example.modul2_theme1_task2.repository.CategoryRepository;
+import com.example.modul2_theme1_task2.repositories.CategoryRepository;
 import com.example.modul2_theme1_task2.response.ApiResponse;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
