@@ -16,7 +16,7 @@ public class Language {
 
     private String name;
 
-    @OneToMany
+    @ManyToMany
     private List<Category> categories;
 
 }

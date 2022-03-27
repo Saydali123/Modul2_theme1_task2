@@ -16,7 +16,6 @@ public class Example {
 
     private String text;
 
-    @OneToOne
-    private Task task;
+    private Long task_id;
 
 }
