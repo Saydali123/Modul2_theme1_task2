@@ -14,7 +14,7 @@ import java.util.Optional;
 import java.util.stream.Collectors;
 
 @RestController
-@RequestMapping(value = "example")
+@RequestMapping(value = "language")
 public class LanguageController {
 
     private final LanguageRepository repository;
